@@ -1,5 +1,5 @@
 Readme :
-
+1.UI technical test
 The Project is created using Java Cucumber Selenium and TestNG.
 There are 3 test cases written in BDD Cucumber feature file.
 The cucumber runs 1 test runner 
