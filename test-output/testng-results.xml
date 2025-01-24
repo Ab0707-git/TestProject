@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-24T00:45:35 GMT" name="CucumberSuite" finished-at="2025-01-24T00:46:11 GMT" duration-ms="36256">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1530c739]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@48075da3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-01-24T00:45:35 GMT" name="TestOnChrome" finished-at="2025-01-24T00:45:54 GMT" duration-ms="19642">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@1530c739]" started-at="2025-01-24T00:45:35 GMT" name="setUpClass" finished-at="2025-01-24T00:45:35 GMT" duration-ms="428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e0ae11f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1530c739]" started-at="2025-01-24T00:45:35 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-24T00:45:43 GMT" duration-ms="7696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To add items to the to-do list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["ToDo App Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runCucumber()[pri:0, instance:runner.TestRunner@1530c739]" started-at="2025-01-24T00:45:35 GMT" name="runCucumber" finished-at="2025-01-24T00:45:35 GMT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCucumber -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1530c739]" started-at="2025-01-24T00:45:43 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-24T00:45:48 GMT" duration-ms="5695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User has to complete a task"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User has to complete a task"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1530c739]" started-at="2025-01-24T00:45:48 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-24T00:45:54 GMT" duration-ms="5774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To edit Todo task"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User has to edit task"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@1530c739]" started-at="2025-01-24T00:45:54 GMT" name="tearDownClass" finished-at="2025-01-24T00:45:54 GMT" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- TestOnChrome -->
+    <test started-at="2025-01-24T00:45:54 GMT" name="TestOnFirefox" finished-at="2025-01-24T00:46:11 GMT" duration-ms="16553">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@48075da3]" started-at="2025-01-24T00:45:54 GMT" name="setUpClass" finished-at="2025-01-24T00:45:54 GMT" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@238d68ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runCucumber()[pri:0, instance:runner.TestRunner@48075da3]" started-at="2025-01-24T00:45:54 GMT" name="runCucumber" finished-at="2025-01-24T00:45:54 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCucumber -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@48075da3]" started-at="2025-01-24T00:45:54 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-24T00:46:00 GMT" duration-ms="5655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To add items to the to-do list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["ToDo App Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@48075da3]" started-at="2025-01-24T00:46:00 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-24T00:46:05 GMT" duration-ms="5371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User has to complete a task"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User has to complete a task"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@48075da3]" started-at="2025-01-24T00:46:05 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-24T00:46:11 GMT" duration-ms="5497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To edit Todo task"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User has to edit task"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@48075da3]" started-at="2025-01-24T00:46:11 GMT" name="tearDownClass" finished-at="2025-01-24T00:46:11 GMT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- TestOnFirefox -->
+    <test started-at="2025-01-24T00:46:11 GMT" name="Test1" finished-at="2025-01-24T00:46:11 GMT" duration-ms="0">
+    </test> <!-- Test1 -->
+    <test started-at="2025-01-24T00:46:11 GMT" name="Test2" finished-at="2025-01-24T00:46:11 GMT" duration-ms="5">
+    </test> <!-- Test2 -->
+    <test started-at="2025-01-24T00:46:11 GMT" name="Test3" finished-at="2025-01-24T00:46:11 GMT" duration-ms="0">
+    </test> <!-- Test3 -->
+  </suite> <!-- CucumberSuite -->
+</testng-results>
